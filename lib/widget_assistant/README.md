@@ -21,7 +21,7 @@ You can paste the widget-code directly to your html-file.
 Right now you can render multiple widgets, you have to separate the different widgets
 by a <strong><code>\<br\></code></strong>-TAG
 
-###Example :
+### Example :
 
 <code>
 plot.period('', ['licht.og.terrasse.screens.warm.dimmen', 'licht.og.terrasse.screens.kalt.dimmen', 'licht.og.terrasse.decke.dimmen'], 'max', '1w', 'now', '0', '110', '1000', ['Screens warm', 'Screens kalt', 'Decke'], ['#daa', '#aad', '#955'], ['stair', 'stair', 'stair'], ['Uhrzeit', 'Helligkeit'], 'advanced', '', '', '', '', '', { yAxis: [ { tickInterval: 40 } ], legend: {align: 'right', verticalAlign: 'top', y: 50, layout: 'vertical'}, chart: { marginRight: 110} })<br>
