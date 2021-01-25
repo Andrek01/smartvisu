@@ -1,4 +1,4 @@
-# smartvisu - Widget Constructor
+# smartvisu - Widget Assistant
 
 ## Table of Content
 1. [How it works](#howitworks)
@@ -38,8 +38,8 @@ quad.dimmer('Lueftungsstufe1', 'Lüftungsstufe', 'Haustechnik.Lueftung', 'Hauste
 
 #### 2021.01.18 - Version 1.1.0
 - changed handling for "render in new window" - if there is no Window a new one will be opened, else the opened window would be refreshed, also if there is a twig error
-- more fixings for "nasty", "nested" widgets
-- changed Hot-Keys
+- more fixes for "nasty", "nested" widgets
+- some optical changes
 
 #### 2020.11.08 - Version 1.0.0
 - added support for multi-widget creation (widgets have to be separated by <strong>&lt;br&gt;</strong>-TAG)
