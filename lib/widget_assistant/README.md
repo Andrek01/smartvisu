@@ -24,11 +24,12 @@ by a <strong><code>\<br\></code></strong>-TAG
 ### Example :
 
 <code>
-plot.period('', ['licht.og.terrasse.screens.warm.dimmen', 'licht.og.terrasse.screens.kalt.dimmen', 'licht.og.terrasse.decke.dimmen'], 'max', '1w', 'now', '0', '110', '1000', ['Screens warm', 'Screens kalt', 'Decke'], ['#daa', '#aad', '#955'], ['stair', 'stair', 'stair'], ['Uhrzeit', 'Helligkeit'], 'advanced', '', '', '', '', '', { yAxis: [ { tickInterval: 40 } ], legend: {align: 'right', verticalAlign: 'top', y: 50, layout: 'vertical'}, chart: { marginRight: 110} })<br>
-<strong>&lt;br&gt;</strong><br>
-basic.stateswitch('','OG.Bad.Licht','midi','','light_ceiling_light','Licht Bad','','','','','')<br>
-<strong>&lt;br&gt;</strong><br>
-quad.dimmer('Lueftungsstufe1', 'Lüftungsstufe', 'Haustechnik.Lueftung', 'Haustechnik.Lueftung.stufe', 0, 100, 5, icon.ventilation(), icon.ventilation('','','Haustechnik.Lueftung.stufe'), '', '', '',                          0, 100,'','','','','','','','','','','','','', ['switch', 'value_popup']) 
+<p>plot.period('', ['licht.og.terrasse.screens.warm.dimmen', 'licht.og.terrasse.screens.kalt.dimmen', 'licht.og.terrasse.decke.dimmen'], 'max', '1w', 'now', '0', '110', '1000', ['Screens warm', 'Screens kalt', 'Decke'], ['#daa', '#aad', '#955'], ['stair', 'stair', 'stair'], ['Uhrzeit', 'Helligkeit'], 'advanced', '', '', '', '', '', { yAxis: [ { tickInterval: 40 } ], legend: {align: 'right', verticalAlign: 'top', y: 50, layout: 'vertical'}, chart: { marginRight: 110} })<p>
+<strong>&lt;br&gt;</strong>
+<p>basic.stateswitch('','OG.Bad.Licht','midi','','light_ceiling_light','Licht Bad','','','','','')</p>
+<strong>&lt;br&gt;</strong>
+<p>quad.dimmer('Lueftungsstufe1', 'Lüftungsstufe', 'Haustechnik.Lueftung', 'Haustechnik.Lueftung.stufe', 0, 100, 5, icon.ventilation(), icon.ventilation('','','Haustechnik.Lueftung.stufe'), '', '', '',                          0, 100,'','','','','','','','','','','','','', ['switch', 'value_popup']) 
+</p>
 </code>
 
 
